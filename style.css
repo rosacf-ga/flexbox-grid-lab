@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: rgb(41, 91, 91);
+}
+
+
+
+#container {
+    height: 500px; 
+    width: 300px;
+    background-color: white; 
+    margin: 90px 20%;
+    box-shadow: 10px 10px 30px; 
+    display: grid; 
+    grid-template-rows: 1fr 4fr 2fr 3fr 2fr;
+
+}
+
+.online { 
+    text-align: end;
+    font-size: 13px;
+    margin: 10px; 
+    color: rgb(158, 157, 157);
+}
+
+.sect1, .sect2, .sect3 {
+    text-align: center;
+}
+.sect1 > img {
+    height: 150px; 
+    border-radius: 50%; 
+    border: rgb(135, 209, 148) solid 5px; 
+    margin-top: 5px;
+   
+}
+
+.sect2 {
+    background-color: rgb(243, 243, 243);
+}
+.sect2  > img { 
+    height:30px;
+}
+
+
+.btns {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+button > img {
+    height: 30px; 
+    
+}
+
+button:hover {
+    cursor: pointer; 
+    opacity: .6;
+}
+
+.btn1 { 
+    background-color: rgb(130, 207, 144); 
+    border: 0;  
+    flex: 1;
+}
+
+
+
+.btn2 { 
+    background-color: rgb(116, 187, 129); 
+    border: 0;
+    flex: 1;
+}
+
+
