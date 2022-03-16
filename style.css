@@ -13,11 +13,12 @@ body {
     width: 300px;
     background-color: white; 
     margin: 90px auto;
-    box-shadow: 10px 10px 30px; 
+    box-shadow: 15px 15px 40px; 
     display: grid; 
     grid-template-rows: 1fr 4fr 3fr 3fr 2fr;
 
-}
+} 
+
 
 .online { 
     text-align: end;
