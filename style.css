@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: Helvetica;
     background-color: rgb(41, 91, 91);
+    
 }
 
 #container {
@@ -18,6 +19,7 @@ body {
     grid-template-rows: 1fr 4fr 3fr 3fr 2fr;
 
 } 
+
 
 
 .online { 
